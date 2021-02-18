@@ -21,3 +21,8 @@ textFile.first()
 # COMMAND ----------
 
 linesWithSpark = textFile.filter(lambda line: "Spark" in line)
+
+# COMMAND ----------
+
+# MAGIC %fs
+# MAGIC ls "/mnt/"
